@@ -1,19 +1,20 @@
+//***LEAP YEAR***
 #include<stdio.h>
 void main()
 {
 int year;
-printf("enter the year:");
+printf("Enter the year:");
 scanf("%d",&year);
 
 if(year%100==0)
  {
    if(year%400==0)
    {
-   printf("leap year");
+   printf("Leap year");
    }
    else
    {
-   printf("not a lear year");
+   printf("Not a lear year");
    }
  }
 
@@ -21,11 +22,11 @@ else
  {
    if(year%4==0)
    {
-   printf("leap yr");
+   printf("Leap year");
    }
    else
    {
-   printf("not a leap yr");
+   printf("Not a leap year");
    }
 
  }
