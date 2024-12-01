@@ -1,10 +1,11 @@
+//***NATURAL NUMBERS***
 #include<stdio.h>
 void main()
 {
 int i=1, n, sum=0;
 //input
 
-printf("enter the n value:");
+printf("Enter the n value:");
 scanf("%d",&n);
 //loop
 while(i<=n)
