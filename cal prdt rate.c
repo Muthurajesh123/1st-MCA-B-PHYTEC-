@@ -1,3 +1,4 @@
+//***LEAP YEAR***
 #include<stdio.h>
 int main()
 {
@@ -9,7 +10,7 @@ scanf("%f",&a);
 printf("Enter the total amount:");
 scanf("%f",&b);
 
-printf("how many product view rate:");
+printf("How many product view rate:");
 scanf("%f",&c);
 
 if((b/a)*c)
@@ -19,7 +20,7 @@ printf("%f",(b/a)*c);
 
 else
 {
-printf("invalid");
+printf("Invalid");
 }
 return 0;
 
