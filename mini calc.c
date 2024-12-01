@@ -1,3 +1,4 @@
+//***CALCULATOR***
 #include<stdio.h>
 int main()
 {
@@ -35,7 +36,7 @@ printf("div: %d",num1/num2);
 break;
 
 default:
-printf("invalid");
+printf("Invalid operator");
 }
 return 0;
 }
