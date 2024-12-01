@@ -1,4 +1,4 @@
-//***LEAP YEAR***
+//*** PRODUCT RATE CALCULATE***
 #include<stdio.h>
 int main()
 {
